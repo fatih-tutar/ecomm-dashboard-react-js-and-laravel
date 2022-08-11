@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Steps
+1-User registration interface with ReactJS. \
+2-Sign up API. A request was sent from the interface written with ReactJS to the backend written with Laravel.
+
 ## Available Scripts
 
 In the project directory, you can run:

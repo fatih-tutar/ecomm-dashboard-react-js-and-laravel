@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Project Steps
-1 - Added Bootstrap to the project. \
+1 - Added Bootstrap to the project. The header menu has been prepared and routing has been done. \
 2 - User registration interface with ReactJS. \
 3 - Sign up API. A request was sent from the interface written with ReactJS to the backend written with Laravel.
 

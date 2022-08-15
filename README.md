@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1 - Added Bootstrap to the project. The header menu has been prepared and routing has been done. \
 2 - User registration interface with ReactJS. \
 3 - Sign up API. A request was sent from the interface written with ReactJS to the backend written with Laravel.
+4 - The header menu is programmed according to the pages and protected routes are used for the internal pages.
 
 ## Available Scripts
 

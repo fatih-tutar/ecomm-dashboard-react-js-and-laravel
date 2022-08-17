@@ -8,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3 - Sign up API. A request was sent from the interface written with ReactJS to the backend written with Laravel. \
 4 - The header menu is programmed according to the pages and protected routes are used for the internal pages. \
 5 - Logout function added and logout button hiding and showing. \
+6 - Login with API. \
 
 ## Available Scripts
 

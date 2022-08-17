@@ -33,7 +33,7 @@ function Register()
     return(
         <>
             <Header/>
-            <div className='col-sm-6 offset-sm-3'>
+            <div className='col-sm-4 offset-sm-4'>
                 <h1>Register Page</h1>
                 <input type="text" value={name} onChange={(e)=>setName(e.target.value)} className="form-control mb-2" placeholder='Name' />
                 <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)} className="form-control mb-2" placeholder='Password' />

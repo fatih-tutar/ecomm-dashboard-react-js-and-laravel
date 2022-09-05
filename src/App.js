@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './Header';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Login from './Login'
-import Register from './Register'
-import AddProduct from './AddProduct'
-import UpdateProduct from './UpdateProduct'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Login from './Login';
+import Register from './Register';
+import AddProduct from './AddProduct';
+import UpdateProduct from './UpdateProduct';
 import Protected from './Protected';
+import ProductList from './ProductList';
 
 function App() {
   return (
@@ -13,10 +13,11 @@ function App() {
       <BrowserRouter>
         {/* <h1>Ecommerce Laravel and ReactJS Project</h1> */}
         <Routes>
-          <Route path="login" element={<Login/>} />
-          <Route path="register" element={<Register/>} />
-          <Route path="add" element={<Protected Cmp={AddProduct}/>} />
-          <Route path="update" element={<Protected Cmp={UpdateProduct}/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/register" element={<Register/>} />
+          <Route path="/add" element={<Protected Cmp={AddProduct}/>} />
+          <Route path="/update" element={<Protected Cmp={UpdateProduct}/>} />
+          <Route path="/" element={<Protected Cmp={ProductList}/>} />
         </Routes>
       </BrowserRouter>
     </div>

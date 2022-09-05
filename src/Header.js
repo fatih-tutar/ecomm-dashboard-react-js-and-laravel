@@ -1,5 +1,5 @@
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
-import {Link, Navigate, useNavigate} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 
 function Header(){
     let user = JSON.parse(localStorage.getItem('user-info'))
@@ -18,6 +18,7 @@ function Header(){
                         localStorage.getItem('user-info') 
                         ? 
                         <>
+                            <Link to="/">Product List</Link>
                             <Link to="/add">Add Products</Link>
                             <Link to="/update">Update Products</Link>
                         </>

@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5 - Logout function added and logout button hiding and showing. \
 6 - Login with API. \
 7 - Add Product API with file upload. \
+8 - A root router with react-router and product listing home route. \
 
 ## Available Scripts
 

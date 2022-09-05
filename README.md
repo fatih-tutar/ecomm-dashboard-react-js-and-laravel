@@ -9,6 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4 - The header menu is programmed according to the pages and protected routes are used for the internal pages. \
 5 - Logout function added and logout button hiding and showing. \
 6 - Login with API. \
+7 - Add Product API with file upload. \
 
 ## Available Scripts
 
